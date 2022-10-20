@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+#new-task-form {
+	display: flex;
+    margin-top: 1rem;
+    
+}
+#new-task-form i{
+
+    font-size: 38px;
+    color: #f4f0f3;
+    cursor: pointer;
+}
+input, button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+    font-family: poppins;
+}
+
+#new-task-input {
+	flex: 1 1 0%;
+    background:#0c2D48;
+	font-family: poppins;;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+	color: rgb(249, 244, 246);
+	font-size: 1.25rem;
+}
+
+#new-task-input::placeholder {
+	color: rgb(212, 204, 204);
+}
+
+
+
+#new-task-submit {
+	font-size: 1.35rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#new-task-submit:hover {
+	opacity: 0.6;
+}
+
+#new-task-submit:active {
+	opacity: 0.6;
+}
+
+main {
+	flex: 1 1 0%;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.task-list {
+	padding: 1rem;
+}
+
+.task-list h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+
+	margin-bottom: 3rem;
+}
+
+#tasks .task {
+	display: flex;
+	justify-content: space-between;
+    background: linear-gradient(#2E8BC0,#B1D4E0);
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+    height: 53px;
+}
+
+.task .content {
+	flex: 1 1 0%;
+
+}
+
+.task .content .text {
+	color: #;
+	font-size: 1.125rem;
+	width: 100%;
+	display: block;
+	transition: 0.4s;
+}
+
+.task .content .text:not(:read-only) {
+	color:#7EC8E3;
+}
+
+.task .actions {
+	display: flex;
+	margin: 0 -0.5rem;
+}
+
+.task .actions button {
+	cursor: pointer;
+	margin: 0 0.5rem;
+	font-size: 1.125rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+
+.task .actions button:hover {
+	opacity: 0.8;
+}
+
+.task .actions button:active {
+	opacity: 0.6;
+}
+
+.task .actions .delete{
+}
+
+#to-do
+{
+    background-color: #F3F2F2;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px 0px black;
+    height: auto;
+    width: auto;
+}
+.to-do-header
+{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto Slab', serif;
+}
